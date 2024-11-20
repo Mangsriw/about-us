@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+.container {
+    border: 2px solid #1E3A8A;
+    border-radius: 15px;
+    padding: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section {
+    width: 50%;
+}
+.right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.logo h1 {
+    font-size: 24px;
+    color: #1E3A8A;
+}
+.welcome {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tabs div {
+    margin-right: 85px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+   
+}
+.tabs .active {
+    border-bottom: 2px solid #1E3A8A;
+    width: 100 px;
+    margin: 0 auto;
+    
+}
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px 40px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.input-group .fa {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+.input-group .fa-eye {
+    right: 10px;
+    left: auto;
+    cursor: pointer;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options a {
+    color: #1E3A8A;
+    text-decoration: none;
+    font-size: 14px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.buttons button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buttons .back {
+    background-color: #CBD5E0;
+    color: #1E3A8A;
+}
+.buttons .login {
+    background-color: #1E3A8A;
+    color: #fff;
+}
+.social-login {
+    text-align: center;
+}
+.social-login p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.social-login .icons {
+    display: flex;
+    justify-content: center;
+}
+.social-login .icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.social-login .icons img {
+    margin: 0 8px; /* Memberikan jarak horizontal */
+}
+.illustration img {
+    width: 300px;
+    height: auto;
+}
